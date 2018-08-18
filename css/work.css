@@ -1,0 +1,110 @@
+.work{
+	
+}
+
+.work>h3{
+	padding-top: 100px;
+}
+
+.work>h3>img{
+	margin: 0 auto;
+}
+
+.work>p{
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
+
+.work>p>img {
+	margin: 0 auto;
+}
+
+.work .tab{
+	
+}
+
+.work .tab ul{
+	padding: 0;
+	list-style: none;
+}
+
+.work .tab .tab-menu{
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 20px;
+	list-style: none;
+	text-align: center;
+	border-bottom: 2px solid #e9e9e9;
+	line-height: 48px;
+}
+
+.work .tab .tab-menu>li{
+	border-bottom: 2px solid transparent;
+	display: inline-block;
+	margin:0 10px;
+	cursor: pointer;
+}
+
+.work .tab .tab-menu>li:hover,
+.work .tab .tab-menu>li.active{
+	border-bottom: 2px solid #4ca2be;
+	color: #4ca2be;
+}
+
+.work .tab .tab-content{
+	list-style: none;
+	position: relative;	
+}
+
+.work .tab .tab-content .tab-content-item{
+	width: 100%;
+	padding: 40px;
+}
+
+
+.work .tab .tab-content .tab-content-item .image-list{
+	
+}
+
+.work .tab .tab-content .tab-content-item .image-list li{
+	padding: 0;
+}
+
+.work .tab .tab-content .tab-content-item .image-list li .image{
+	position: relative;
+	background: #CCCCCC;
+}
+
+.work .tab .tab-content .tab-content-item .image-list li .image:hover .image-modal{
+	display: block;
+}
+
+.work .tab .tab-content .tab-content-item .image-list li .image .image-modal{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	background-color: rgba(0,0,0,.5);
+	-khtml-opacity:0.6;
+	-moz-opacity:0.6;
+	 *zoom:1;
+	filter:alpha(opacity=50);
+	text-align: center;
+}
+
+.work .tab .tab-content .tab-content-item .image-list .image>img{
+	width: 100%;
+	min-width: 100%;
+}
+
+.work .tab .tab-content .tab-content-item .image-list li .image .image-modal>img{
+	position: relative;
+	top: 50%;
+	width: 20%;
+	margin: 5px;
+	margin-top: -20px;
+	cursor: pointer;
+}
